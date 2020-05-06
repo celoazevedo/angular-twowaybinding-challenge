@@ -27,7 +27,8 @@ export class Login1Component {
   clickAlert() {
     // console.log(this.inputText1)
     // console.log(this.inputText2)
-    alert(`${this.inputText1} ${this.inputText2}`)
+    alert(`${this.title1} : ${this.inputText1} 
+    ${this.title2} : ${this.inputText2}`)
     // alert(this.inputText2)
   }
 
