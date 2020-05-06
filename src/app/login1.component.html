@@ -1,0 +1,31 @@
+<!-- <hello name="{{ name }}"></hello> -->
+
+<div id = 'board'>
+
+<div id = 'titles'>
+<p>{{ title1 }}</p>
+
+<p>{{ title2 }}</p>
+</div>
+
+
+<div id = 'buttons'>
+
+<!-- [(ngModel)] = " <property to bind to> " -->
+<input id='one' [(ngModel)] = "inputText1" >
+<!-- {{ inputText1 }} -->
+<input id='two' [(ngModel)] = "inputText2" >
+<!-- {{ inputText2 }} -->
+
+
+<button id= buttonLogin (click) = 'clickAlert()'> Log In </button>
+
+</div>
+
+<div>
+
+<p><a id= 'forgotLink' href='{{linkURL}}'> Forgot account? </a></p>
+
+</div>
+
+</div>

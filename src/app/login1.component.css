@@ -1,0 +1,52 @@
+#board {
+  max-width: auto;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(42, 42, 180);
+}
+
+
+
+#titles {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+
+}
+
+
+#buttons {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+#one{
+  padding-right: 10px;
+
+}
+
+#buttonLogin{
+  color: white;
+  background-color: blue;
+  border: solid gray;
+
+}
+
+
+#forgotLink{
+  color: antiquewhite;
+  position: relative;
+  left: 120px;
+
+}
